@@ -74,8 +74,8 @@ class TicTacToe
      if check == " "
       return false
      end
-  end 
-   return true
+    end 
+    return true
   end 
   def draw?
     if !won? && full?
@@ -93,7 +93,7 @@ class TicTacToe
       @board[winning_combo[0]]
     else 
       winning_combo
+    end
   end
   
-end
 end 
