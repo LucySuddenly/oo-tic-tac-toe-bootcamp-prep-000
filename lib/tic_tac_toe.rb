@@ -69,5 +69,13 @@ class TicTacToe
     @board[win_index_1] != " " 
     end
   end
+  def full?
+   @board.each do |check|
+     if check == " "
+      return false
+     end
+  end 
+   return true
+  end 
   
 end 
